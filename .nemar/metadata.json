@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "SpinalExpect_Invasive",
+  "description": "This dataset investigates whether temporal expectation modulates initial sensory processing in the human spinal cord using invasive electrophysiological recordings. Eight patients with neuropathic pain and implanted cervical epidural electrodes performed an auditory-cued median nerve stimulation task under two conditions: fixed (1100 ms) or variable (100-2100 ms) cue-to-stimulus intervals. Participants counted rare double-stimulus trials (80 ms interstimulus interval) within ~5 minute blocks. The study examines how predictability of sensory input affects spinal cord processing mechanisms.",
+  "methods_description": "Invasive electrophysiological recordings from eight epidural contacts (3 mm length, 1 mm spacing) placed alongside the dorsal cervical spinal cord in patients with cervical epidural electrode implantation. Electric median nerve stimulation was delivered at the left wrist, preceded by auditory cues. Experimental design alternated between fixed (1100 ms) and variable (100-2100 ms uniform distribution) cue-to-stimulus intervals across blocks.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,48 @@
     "Matthias Deliano": {},
     "Lars Buentjen": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005691.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "spinal cord"
     },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "temporal expectation"
+    },
+    {
+      "term": "sensory processing"
+    },
+    {
+      "term": "epidural recording"
+    },
+    {
+      "term": "neuropathic pain"
+    },
+    {
+      "term": "median nerve stimulation"
+    },
+    {
+      "term": "invasive electrophysiology"
+    },
+    {
+      "term": "cervical spinal cord"
+    },
+    {
+      "term": "auditory cueing"
+    },
+    {
+      "term": "paired stimuli"
+    },
+    {
+      "term": "double stimuli"
+    },
+    {
+      "term": "epidural electrode"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005691",
       "identifier_type": "URL",
@@ -33,13 +71,17 @@
       "identifier": "10.18112/openneuro.ds005691",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005691.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
       "funder_name": "VolkswagenStiftung",
-      "award_number": "92977",
-      "award_title": "Freigeist Fellowship"
+      "award_number": "92977"
     },
     {
       "funder_name": "Deutsche Forschungsgemeinschaft",
@@ -48,12 +90,12 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "757.5 MB (25 files)"
   ],
   "formats": [
     ".eeg",
@@ -61,45 +103,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset contains invasive spinal cord recordings from patients with neuropathic pain who underwent epidural electrode implantation in the cervical spinal canal. Subjects performed a temporal expectation task involving auditory cues and median nerve stimulation, with the primary objective of investigating whether temporal expectation modulates initial sensory processing at the spinal cord level. The study employed both fixed (1100 ms) and variable (100-2100 ms) cue-to-stimulus intervals across alternating experimental blocks.",
-  "methods_description": "Eight patients with neuropathic pain following cervical epidural electrode implantation participated in the study. Recordings were obtained from eight epidural contacts (3 mm length, 1 mm spacing) placed alongside the dorsal cervical spinal cord, with the fourth contact serving as reference and an additional ground wire. Subjects received median nerve stimulation on the left wrist preceded by auditory cues at either fixed (1100 ms) or randomly varied (100-2100 ms) intervals. The task required subjects to count rare trials containing two rapid median nerve stimuli (80 ms interstimulus interval) within ~5 minute blocks.",
-  "keywords": [
-    {
-      "term": "Spinal Cord",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013116"
-    },
-    {
-      "term": "electrophysiology",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
-    },
-    {
-      "term": "temporal expectation"
-    },
-    {
-      "term": "sensory processing"
-    },
-    {
-      "term": "neuropathic pain"
-    },
-    {
-      "term": "epidural recording"
-    },
-    {
-      "term": "invasive electrophysiology"
-    },
-    {
-      "term": "median nerve stimulation"
-    },
-    {
-      "term": "cervical spinal cord"
-    },
-    {
-      "term": "intracranial recording"
-    }
-  ],
-  "source_hash": "98336376d35f237b9eb335b588cbd51341868bf2d19cd0606a02a4747ab38399"
+  "source_hash": "5502060289b22da62eb98fa4d2316da00920a86277454c9676f9a2e82abebb09"
 }
