@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005691-blue)](https://doi.org/10.82901/nemar.on005691)
+
 Contact person: 
 Max-Philipp Stenner, email: max-philipp.stenner@med.ovgu.de or max-philipp.stenner@lin-magdeburg.de, ORCID: 0000-0002-3694-1887
 
