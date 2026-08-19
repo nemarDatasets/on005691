@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "SpinalExpect_Invasive",
-  "description": "This dataset investigates whether temporal expectation modulates initial sensory processing in the human spinal cord using invasive electrophysiological recordings. Eight patients with neuropathic pain and implanted cervical epidural electrodes performed an auditory-cued median nerve stimulation task under two conditions: fixed (1100 ms) or variable (100-2100 ms) cue-to-stimulus intervals. Participants counted rare double-stimulus trials (80 ms interstimulus interval) within ~5 minute blocks. The study examines how predictability of sensory input affects spinal cord processing mechanisms.",
-  "methods_description": "Invasive electrophysiological recordings from eight epidural contacts (3 mm length, 1 mm spacing) placed alongside the dorsal cervical spinal cord in patients with cervical epidural electrode implantation. Electric median nerve stimulation was delivered at the left wrist, preceded by auditory cues. Experimental design alternated between fixed (1100 ms) and variable (100-2100 ms uniform distribution) cue-to-stimulus intervals across blocks.",
+  "description": "This dataset contains invasive electrophysiological recordings from the human cervical spinal cord in patients with neuropathic pain who had epidural electrodes implanted for pain management. The study investigates whether temporal expectation, manipulated via variable versus fixed cue-to-stimulus intervals, influences initial sensory processing of median nerve stimulation at the level of the spinal cord. Eight patients performed a counting task while receiving auditory cues followed by single or double electric median nerve stimuli.",
+  "methods_description": "Recordings were obtained from eight epidural contacts placed alongside the dorsal cervical spinal cord in each patient, with the fourth contact (from caudal) as reference and a ground wire twisted around the wire for the sixth contact. In each trial, an auditory cue preceded electric median nerve stimulation at the left wrist, with the cue-to-stimulus interval either fixed (1100 ms) or randomly varied (100-2100 ms) across alternating blocks. Subjects silently counted rare trials containing two rapid-succession stimuli (80 ms ISI) and reported the count at block end.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,43 +17,27 @@
   },
   "keywords": [
     {
-      "term": "spinal cord"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "temporal expectation"
+      "term": "Spinal Cord",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013116"
     },
     {
       "term": "sensory processing"
     },
     {
-      "term": "epidural recording"
-    },
-    {
-      "term": "neuropathic pain"
+      "term": "temporal expectation"
     },
     {
       "term": "median nerve stimulation"
     },
     {
-      "term": "invasive electrophysiology"
+      "term": "epidural electrodes"
     },
     {
-      "term": "cervical spinal cord"
+      "term": "neuropathic pain"
     },
     {
-      "term": "auditory cueing"
-    },
-    {
-      "term": "paired stimuli"
-    },
-    {
-      "term": "double stimuli"
-    },
-    {
-      "term": "epidural electrode"
+      "term": "electrophysiology"
     }
   ],
   "related_identifiers": [
@@ -81,12 +65,13 @@
   "funding_references": [
     {
       "funder_name": "VolkswagenStiftung",
-      "award_number": "92977"
+      "award_number": "92977",
+      "award_title": "Freigeist Fellowship"
     },
     {
       "funder_name": "Deutsche Forschungsgemeinschaft",
       "award_number": "425899996",
-      "award_title": "Sonderforschungsbereich SFB-1436 TPC03"
+      "award_title": "SFB-1436 TPC03"
     }
   ],
   "resource_type_general": "Dataset",
